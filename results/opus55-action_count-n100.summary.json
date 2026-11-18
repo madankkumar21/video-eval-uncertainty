@@ -1,0 +1,19 @@
+{
+  "model_id": "claude-opus-5-5",
+  "n": 100,
+  "correct": 52,
+  "accuracy": 0.52,
+  "wilson_lo": 0.42316577765223967,
+  "wilson_hi": 0.615354482419481,
+  "parse_failures": 0,
+  "cached_items": 65,
+  "input_tokens": 399804,
+  "output_tokens": 8223,
+  "cost_usd": 0.6098,
+  "latency_p50_s": 2.63,
+  "shuffle_seed": null,
+  "label_style": "letter",
+  "temperature": "0",
+  "run_id": "opus55-action_count-n100",
+  "published_at": "2026-10-04T17:42:04+00:00"
+}

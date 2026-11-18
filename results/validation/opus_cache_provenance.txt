@@ -1,0 +1,8 @@
+run_id|rows|first|last|avg_out
+opus55-action_count-n100|97|2026-10-04 04:42:50|2026-10-04 17:42:04|83.0412371134021
+opus55-action_count-n100-shuf1|84|2026-10-04 17:42:18|2026-10-04 17:46:42|73.2261904761905
+smoke-opus55-n3|3|2026-10-04 04:40:58|2026-10-04 04:41:03|56.0
+run_id|paid_calls|first
+opus55-action_count-n100|98|2026-10-04 04:42:45
+opus55-action_count-n100-shuf1|85|2026-10-04 04:47:35
+smoke-opus55-n3|3|2026-10-04 04:40:52

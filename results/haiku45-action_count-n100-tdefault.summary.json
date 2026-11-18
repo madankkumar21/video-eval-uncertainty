@@ -1,0 +1,19 @@
+{
+  "model_id": "claude-haiku-4-5-20251001",
+  "n": 100,
+  "correct": 38,
+  "accuracy": 0.38,
+  "wilson_lo": 0.29097599252478734,
+  "wilson_hi": 0.47790244704488927,
+  "parse_failures": 0,
+  "cached_items": 0,
+  "input_tokens": 391357,
+  "output_tokens": 900,
+  "cost_usd": 0.3959,
+  "latency_p50_s": 1.1,
+  "shuffle_seed": null,
+  "label_style": "letter",
+  "temperature": "default",
+  "run_id": "haiku45-action_count-n100-tdefault",
+  "published_at": "2026-10-04T04:41:43+00:00"
+}

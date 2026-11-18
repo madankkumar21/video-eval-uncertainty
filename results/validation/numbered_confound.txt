@@ -1,0 +1,6 @@
+run haiku45-action_count-n100-numbered: 100 items
+answer texts seen: ['2', '3', '4', '5', '6', '7', '8', '9']
+1. returned label == true count:        8/100   (RESULTS.md says 8/100)
+2. returned label == any option text:   37/100   (RESULTS.md says 37/100)
+3. '2' is one of the options:           52/100   (RESULTS.md says 52)
+4. true count 3: 41 items; returned '2' on 36, '3' on 1   (RESULTS.md says 41 items, '2' on 36, '3' once)

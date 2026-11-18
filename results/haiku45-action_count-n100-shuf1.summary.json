@@ -1,0 +1,17 @@
+{
+  "model_id": "claude-haiku-4-5-20251001",
+  "n": 100,
+  "correct": 39,
+  "accuracy": 0.39,
+  "wilson_lo": 0.3001687400639442,
+  "wilson_hi": 0.4879698295415927,
+  "parse_failures": 0,
+  "cached_items": 16,
+  "input_tokens": 391357,
+  "output_tokens": 900,
+  "cost_usd": 0.3327,
+  "latency_p50_s": 1.21,
+  "shuffle_seed": 1,
+  "run_id": "haiku45-action_count-n100-shuf1",
+  "published_at": "2026-10-04T02:19:03+00:00"
+}

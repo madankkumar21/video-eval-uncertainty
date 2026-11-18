@@ -1,0 +1,55 @@
+--- a/lmms_eval/models/simple/claude.py
++++ b/lmms_eval/models/simple/claude.py
+@@ -25,10 +25,16 @@
+ try:
+     import anthropic
+     import numpy as np
+-    from decord import VideoReader, cpu
+ except Exception as e:
+     eval_logger.warning(f"Error importing claude: {e}")
+ 
++# Video frames are read with PyAV: lmms-eval does not install decord on macOS, and importing it in the same
++# try block as anthropic left the wrapper without a client on macOS.
++try:
++    import av
++except Exception as e:
++    eval_logger.warning(f"Error importing av (PyAV), needed for video input: {e}")
++
+ API_URL = os.getenv("ANTHROPIC_API_URL", "https://api.anthropic.com/v1/complete")
+ API_KEY = os.getenv("ANTHROPIC_API_KEY", "YOUR_API_KEY")
+ 
+@@ -106,11 +112,22 @@
+         return self.shrink_image_to_file_size(img, max_file_size)
+ 
+     def encode_video(self, video_path):
+-        vr = VideoReader(video_path, ctx=cpu(0))
+-        total_frame_num = len(vr)
++        # Same uniform sampling as the decord version: max_frames_num indices from np.linspace.
++        with av.open(video_path) as container:
++            total_frame_num = sum(1 for _ in container.decode(video=0))
+         uniform_sampled_frames = np.linspace(0, total_frame_num - 1, self.max_frames_num, dtype=int)
+         frame_idx = uniform_sampled_frames.tolist()
+-        frames = vr.get_batch(frame_idx).asnumpy()
++        wanted = {}
++        for i in frame_idx:
++            wanted[i] = wanted.get(i, 0) + 1
++        frames = []
++        with av.open(video_path) as container:
++            for i, frame in enumerate(container.decode(video=0)):
++                if i in wanted:
++                    rgb = frame.to_ndarray(format="rgb24")
++                    frames.extend([rgb] * wanted[i])
++                if len(frames) == len(frame_idx):
++                    break
+ 
+         base64_frames = []
+         for frame in frames:
+@@ -207,7 +224,7 @@
+             for attempt in range(5):
+                 retry_flag = True
+                 try:
+-                    message = client.messages.create(model=self.model_version, max_tokens=gen_kwargs["max_new_tokens"], system=self.system_prompt, temperature=gen_kwargs["temperature"], top_p=gen_kwargs["top_p"], messages=messages)
++                    message = client.messages.create(model=self.model_version, max_tokens=gen_kwargs["max_new_tokens"], system=self.system_prompt, temperature=gen_kwargs["temperature"], messages=messages)  # top_p dropped: Claude 4.x accepts temperature or top_p, not both
+                     retry_flag = False
+                 except Exception as e:
+                     eval_logger.info(f"Attempt {attempt + 1} failed with error: {str(e)}")

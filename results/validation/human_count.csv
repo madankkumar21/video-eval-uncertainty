@@ -1,0 +1,21 @@
+n,item_id,letter,confidence,impossible_from_frames,seconds,letter_full_video,note
+1,action_count:video_10818,A,sure,no,45,B,
+2,action_count:video_10521,A,sure,no,46,,
+3,action_count:video_1153,A,sure,no,12,,
+4,action_count:video_93,A,unsure,yes,413,B,count looked lower than every option; chose the lowest option
+5,action_count:video_5176,A,sure,no,6,B,
+6,action_count:video_6754,B,unsure,no,9,C,
+7,action_count:video_10578,A,sure,no,26,,
+8,action_count:video_5181,B,sure,no,9,C,
+9,action_count:video_4381,A,sure,no,41,,
+10,action_count:video_2715,B,unsure,no,43,C,
+11,action_count:video_5466,C,unsure,no,221,,count looked lower than every option; chose the lowest option
+12,action_count:video_4041,B,unsure,yes,38,,
+13,action_count:video_7499,C,sure,no,9,A,
+14,action_count:video_6927,A,sure,no,10,C,
+15,action_count:video_9507,C,unsure,no,29,B,
+16,action_count:video_1803,C,sure,,5,A,
+17,action_count:video_11186,A,unsure,no,17,,
+18,action_count:video_9068,C,sure,,18,B,
+19,action_count:video_1827,C,unsure,no,9,B,
+20,action_count:video_9838,A,sure,no,20,,

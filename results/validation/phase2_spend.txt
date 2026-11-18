@@ -1,0 +1,29 @@
+run                                         estimate    billed
+haiku45-action_count-n100-blind                0.045     0.028
+haiku45-action_count-n100-blind-vshuf1         0.045     0.022
+sonnet55-action_count-n100-blind               0.090     0.071
+sonnet55-action_count-n100-blind-vshuf1        0.090     0.056
+opus55-action_count-n100-blind                 0.330     0.200
+opus55-action_count-n100-blind-vshuf1          0.330     0.159
+haiku45-action_count-n100-perm1                0.400     0.396
+haiku45-action_count-n100-perm2                0.400     0.396
+haiku45-action_count-n100-perm3                0.400     0.396
+haiku45-action_count-n100-perm4                0.400     0.396
+haiku45-action_count-n100-perm5                0.400     0.333
+sonnet55-action_count-n100-perm1               0.800     0.688
+sonnet55-action_count-n100-perm2               0.800     0.640
+sonnet55-action_count-n100-perm3               0.800     0.624
+sonnet55-action_count-n100-perm4               0.800     0.721
+sonnet55-action_count-n100-perm5               0.800     0.694
+haiku45-action_count-n100-f4                   0.200     0.212
+haiku45-action_count-n100-f16                  0.800     0.763
+haiku45-action_count-s100-n100                 0.400     0.395
+sonnet55-action_count-s100-n100                0.800     0.808
+opus55-action_count-n100-perm1                 1.700     1.513
+opus55-action_count-n100-perm2                 1.700     1.387
+opus55-action_count-n100-perm3                 1.700     1.357
+opus55-action_count-n100-perm4                 1.700     1.562
+opus55-action_count-n100-perm5                 1.700     1.509
+opus55-action_count-n100-rep2                  1.700     1.776
+phase 2 spent $17.10 of the $30 cap; plan total $19.73
+GO

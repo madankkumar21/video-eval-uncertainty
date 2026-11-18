@@ -1,0 +1,221 @@
+{
+  "n": 20,
+  "correct": 8,
+  "acc": 0.4,
+  "lo": 0.21880653237281705,
+  "hi": 0.6134184992377469,
+  "pass_k": 15,
+  "h7": "falsified",
+  "one_flip_changes_verdict": false,
+  "sure": {
+    "n": 12,
+    "correct": 5
+  },
+  "unsure": {
+    "n": 8,
+    "correct": 3
+  },
+  "impossible_flagged": 2,
+  "impossible_and_wrong": 1,
+  "full_video": {
+    "rechecked": 12,
+    "correct": 12,
+    "misses_rechecked": 12,
+    "misses_fixed_by_full_video": 12
+  },
+  "models_on_these_items": {
+    "haiku45": 8,
+    "sonnet55": 11,
+    "opus55": 8
+  },
+  "items": [
+    {
+      "item_id": "action_count:video_10818",
+      "human": "A",
+      "truth": "B",
+      "correct": false,
+      "confidence": "sure",
+      "impossible": false,
+      "seconds": "45"
+    },
+    {
+      "item_id": "action_count:video_10521",
+      "human": "A",
+      "truth": "A",
+      "correct": true,
+      "confidence": "sure",
+      "impossible": false,
+      "seconds": "46"
+    },
+    {
+      "item_id": "action_count:video_1153",
+      "human": "A",
+      "truth": "A",
+      "correct": true,
+      "confidence": "sure",
+      "impossible": false,
+      "seconds": "12"
+    },
+    {
+      "item_id": "action_count:video_93",
+      "human": "A",
+      "truth": "B",
+      "correct": false,
+      "confidence": "unsure",
+      "impossible": true,
+      "seconds": "413"
+    },
+    {
+      "item_id": "action_count:video_5176",
+      "human": "A",
+      "truth": "B",
+      "correct": false,
+      "confidence": "sure",
+      "impossible": false,
+      "seconds": "6"
+    },
+    {
+      "item_id": "action_count:video_6754",
+      "human": "B",
+      "truth": "C",
+      "correct": false,
+      "confidence": "unsure",
+      "impossible": false,
+      "seconds": "9"
+    },
+    {
+      "item_id": "action_count:video_10578",
+      "human": "A",
+      "truth": "A",
+      "correct": true,
+      "confidence": "sure",
+      "impossible": false,
+      "seconds": "26"
+    },
+    {
+      "item_id": "action_count:video_5181",
+      "human": "B",
+      "truth": "C",
+      "correct": false,
+      "confidence": "sure",
+      "impossible": false,
+      "seconds": "9"
+    },
+    {
+      "item_id": "action_count:video_4381",
+      "human": "A",
+      "truth": "A",
+      "correct": true,
+      "confidence": "sure",
+      "impossible": false,
+      "seconds": "41"
+    },
+    {
+      "item_id": "action_count:video_2715",
+      "human": "B",
+      "truth": "C",
+      "correct": false,
+      "confidence": "unsure",
+      "impossible": false,
+      "seconds": "43"
+    },
+    {
+      "item_id": "action_count:video_5466",
+      "human": "C",
+      "truth": "C",
+      "correct": true,
+      "confidence": "unsure",
+      "impossible": false,
+      "seconds": "221"
+    },
+    {
+      "item_id": "action_count:video_4041",
+      "human": "B",
+      "truth": "B",
+      "correct": true,
+      "confidence": "unsure",
+      "impossible": true,
+      "seconds": "38"
+    },
+    {
+      "item_id": "action_count:video_7499",
+      "human": "C",
+      "truth": "A",
+      "correct": false,
+      "confidence": "sure",
+      "impossible": false,
+      "seconds": "9"
+    },
+    {
+      "item_id": "action_count:video_6927",
+      "human": "A",
+      "truth": "C",
+      "correct": false,
+      "confidence": "sure",
+      "impossible": false,
+      "seconds": "10"
+    },
+    {
+      "item_id": "action_count:video_9507",
+      "human": "C",
+      "truth": "B",
+      "correct": false,
+      "confidence": "unsure",
+      "impossible": false,
+      "seconds": "29"
+    },
+    {
+      "item_id": "action_count:video_1803",
+      "human": "C",
+      "truth": "A",
+      "correct": false,
+      "confidence": "sure",
+      "impossible": false,
+      "seconds": "5"
+    },
+    {
+      "item_id": "action_count:video_11186",
+      "human": "A",
+      "truth": "A",
+      "correct": true,
+      "confidence": "unsure",
+      "impossible": false,
+      "seconds": "17"
+    },
+    {
+      "item_id": "action_count:video_9068",
+      "human": "C",
+      "truth": "B",
+      "correct": false,
+      "confidence": "sure",
+      "impossible": false,
+      "seconds": "18"
+    },
+    {
+      "item_id": "action_count:video_1827",
+      "human": "C",
+      "truth": "B",
+      "correct": false,
+      "confidence": "unsure",
+      "impossible": false,
+      "seconds": "9"
+    },
+    {
+      "item_id": "action_count:video_9838",
+      "human": "A",
+      "truth": "A",
+      "correct": true,
+      "confidence": "sure",
+      "impossible": false,
+      "seconds": "20"
+    }
+  ],
+  "answer_mix": {
+    "3": 8,
+    "4": 3,
+    "7": 2,
+    "5": 1,
+    "6": 2,
+    "2": 4
+  }
+}

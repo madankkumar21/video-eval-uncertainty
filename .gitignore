@@ -1,0 +1,18 @@
+.env
+.venv/
+data/
+__pycache__/
+*.pyc
+.pytest_cache/
+# results: keep the real runs (rows + summaries) so they travel with the repo; ignore caches, logs, demo runs
+results/*
+!results/haiku45-*.jsonl
+!results/haiku45-*.summary.json
+!results/haiku45-*.summary.md
+!results/sonnet55-*.jsonl
+!results/sonnet55-*.summary.json
+!results/sonnet55-*.summary.md
+!results/opus55-*.jsonl
+!results/opus55-*.summary.json
+!results/opus55-*.summary.md
+!results/compare-*.json

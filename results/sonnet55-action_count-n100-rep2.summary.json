@@ -1,0 +1,19 @@
+{
+  "model_id": "claude-sonnet-5-5",
+  "n": 100,
+  "correct": 48,
+  "accuracy": 0.48,
+  "wilson_lo": 0.384645517580519,
+  "wilson_hi": 0.5768342223477604,
+  "parse_failures": 0,
+  "cached_items": 0,
+  "input_tokens": 399704,
+  "output_tokens": 1000,
+  "cost_usd": 0.8094,
+  "latency_p50_s": 1.95,
+  "shuffle_seed": null,
+  "label_style": "letter",
+  "temperature": "0",
+  "run_id": "sonnet55-action_count-n100-rep2",
+  "published_at": "2026-10-04T17:43:29+00:00"
+}

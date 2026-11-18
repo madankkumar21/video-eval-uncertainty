@@ -1,0 +1,1759 @@
+{
+  "runs": {
+    "haiku45-action_count-n100": {
+      "run_id": "haiku45-action_count-n100",
+      "label": "Haiku t=0",
+      "n": 100,
+      "correct": 44,
+      "acc": 0.44,
+      "lo": 0.34672026630160796,
+      "hi": 0.5377189534832303,
+      "picks_ABC": [
+        24,
+        59,
+        17
+      ],
+      "truth_ABC": [
+        35,
+        35,
+        30
+      ],
+      "gof_p": 2.834033704640095e-06,
+      "acc_by_pos": {
+        "A": "8/35",
+        "B": "26/35",
+        "C": "10/30"
+      },
+      "acc_by_pos_chi2_p": 3.098894516258936e-05,
+      "cost_usd": 0.384,
+      "paid_calls": 97,
+      "parse_failures": 0
+    },
+    "haiku45-action_count-n100-rep2": {
+      "run_id": "haiku45-action_count-n100-rep2",
+      "label": "Haiku t=0 repeat",
+      "n": 100,
+      "correct": 44,
+      "acc": 0.44,
+      "lo": 0.34672026630160796,
+      "hi": 0.5377189534832303,
+      "picks_ABC": [
+        24,
+        59,
+        17
+      ],
+      "truth_ABC": [
+        35,
+        35,
+        30
+      ],
+      "gof_p": 2.834033704640095e-06,
+      "acc_by_pos": {
+        "A": "8/35",
+        "B": "26/35",
+        "C": "10/30"
+      },
+      "acc_by_pos_chi2_p": 3.098894516258936e-05,
+      "cost_usd": 0.3959,
+      "paid_calls": 100,
+      "parse_failures": 0
+    },
+    "haiku45-action_count-n100-tdefault": {
+      "run_id": "haiku45-action_count-n100-tdefault",
+      "label": "Haiku default temp",
+      "n": 100,
+      "correct": 38,
+      "acc": 0.38,
+      "lo": 0.29097599252478734,
+      "hi": 0.47790244704488927,
+      "picks_ABC": [
+        27,
+        55,
+        18
+      ],
+      "truth_ABC": [
+        35,
+        35,
+        30
+      ],
+      "gof_p": 0.00011993370471281472,
+      "acc_by_pos": {
+        "A": "8/35",
+        "B": "22/35",
+        "C": "8/30"
+      },
+      "acc_by_pos_chi2_p": 0.0008164717614212312,
+      "cost_usd": 0.3959,
+      "paid_calls": 100,
+      "parse_failures": 0
+    },
+    "haiku45-action_count-n100-shuf1": {
+      "run_id": "haiku45-action_count-n100-shuf1",
+      "label": "Haiku t=0 shuffled",
+      "n": 100,
+      "correct": 39,
+      "acc": 0.39,
+      "lo": 0.3001687400639442,
+      "hi": 0.4879698295415927,
+      "picks_ABC": [
+        25,
+        59,
+        16
+      ],
+      "truth_ABC": [
+        28,
+        37,
+        35
+      ],
+      "gof_p": 7.078859977168807e-06,
+      "acc_by_pos": {
+        "A": "8/28",
+        "B": "26/37",
+        "C": "5/35"
+      },
+      "acc_by_pos_chi2_p": 2.9402618459249846e-06,
+      "cost_usd": 0.3327,
+      "paid_calls": 84,
+      "parse_failures": 0
+    },
+    "haiku45-action_count-n100-numbered": {
+      "run_id": "haiku45-action_count-n100-numbered",
+      "label": "Haiku t=0 labels 1/2/3",
+      "n": 100,
+      "correct": 35,
+      "acc": 0.35,
+      "lo": 0.26364248243097527,
+      "hi": 0.4474555670311204,
+      "picks_ABC": [
+        24,
+        74,
+        2
+      ],
+      "truth_ABC": [
+        35,
+        35,
+        30
+      ],
+      "gof_p": 1.373760629238759e-16,
+      "acc_by_pos": {
+        "A": "7/35",
+        "B": "26/35",
+        "C": "2/30"
+      },
+      "acc_by_pos_chi2_p": 6.217698350912974e-09,
+      "cost_usd": 0.3959,
+      "paid_calls": 100,
+      "parse_failures": 0
+    },
+    "sonnet55-action_count-n100": {
+      "run_id": "sonnet55-action_count-n100",
+      "label": "Sonnet between_tools",
+      "n": 100,
+      "correct": 48,
+      "acc": 0.48,
+      "lo": 0.384645517580519,
+      "hi": 0.5768342223477604,
+      "picks_ABC": [
+        39,
+        31,
+        30
+      ],
+      "truth_ABC": [
+        35,
+        35,
+        30
+      ],
+      "gof_p": 0.6330898921891812,
+      "acc_by_pos": {
+        "A": "18/35",
+        "B": "14/35",
+        "C": "16/30"
+      },
+      "acc_by_pos_chi2_p": 0.4955556096843706,
+      "cost_usd": 0.7933,
+      "paid_calls": 98,
+      "parse_failures": 0
+    },
+    "sonnet55-action_count-n100-rep2": {
+      "run_id": "sonnet55-action_count-n100-rep2",
+      "label": "Sonnet repeat",
+      "n": 100,
+      "correct": 48,
+      "acc": 0.48,
+      "lo": 0.384645517580519,
+      "hi": 0.5768342223477604,
+      "picks_ABC": [
+        39,
+        32,
+        29
+      ],
+      "truth_ABC": [
+        35,
+        35,
+        30
+      ],
+      "gof_p": 0.6881079675313795,
+      "acc_by_pos": {
+        "A": "17/35",
+        "B": "16/35",
+        "C": "15/30"
+      },
+      "acc_by_pos_chi2_p": 0.9389830270861218,
+      "cost_usd": 0.8094,
+      "paid_calls": 100,
+      "parse_failures": 0
+    },
+    "sonnet55-action_count-n100-shuf1": {
+      "run_id": "sonnet55-action_count-n100-shuf1",
+      "label": "Sonnet shuffled",
+      "n": 100,
+      "correct": 46,
+      "acc": 0.46,
+      "lo": 0.365608083090241,
+      "hi": 0.5573513967663177,
+      "picks_ABC": [
+        33,
+        35,
+        32
+      ],
+      "truth_ABC": [
+        28,
+        37,
+        35
+      ],
+      "gof_p": 0.5330958424222851,
+      "acc_by_pos": {
+        "A": "15/28",
+        "B": "18/37",
+        "C": "13/35"
+      },
+      "acc_by_pos_chi2_p": 0.39533400164610827,
+      "cost_usd": 0.6802,
+      "paid_calls": 84,
+      "parse_failures": 0
+    },
+    "opus55-action_count-n100": {
+      "run_id": "opus55-action_count-n100",
+      "label": "Opus medium effort",
+      "n": 100,
+      "correct": 52,
+      "acc": 0.52,
+      "lo": 0.42316577765223967,
+      "hi": 0.615354482419481,
+      "picks_ABC": [
+        41,
+        23,
+        36
+      ],
+      "truth_ABC": [
+        35,
+        35,
+        30
+      ],
+      "gof_p": 0.04194363560399504,
+      "acc_by_pos": {
+        "A": "18/35",
+        "B": "15/35",
+        "C": "19/30"
+      },
+      "acc_by_pos_chi2_p": 0.2565910586796084,
+      "cost_usd": 0.6098,
+      "paid_calls": 35,
+      "parse_failures": 0
+    },
+    "opus55-action_count-n100-shuf1": {
+      "run_id": "opus55-action_count-n100-shuf1",
+      "label": "Opus shuffled",
+      "n": 100,
+      "correct": 51,
+      "acc": 0.51,
+      "lo": 0.4134801193402717,
+      "hi": 0.6057800106955887,
+      "picks_ABC": [
+        25,
+        35,
+        40
+      ],
+      "truth_ABC": [
+        28,
+        37,
+        35
+      ],
+      "gof_p": 0.5644456404101481,
+      "acc_by_pos": {
+        "A": "11/28",
+        "B": "22/37",
+        "C": "18/35"
+      },
+      "acc_by_pos_chi2_p": 0.27257950409512216,
+      "cost_usd": 1.467,
+      "paid_calls": 84,
+      "parse_failures": 0
+    }
+  },
+  "shuffle": [
+    {
+      "unshuffled": "haiku45-action_count-n100",
+      "shuffled": "haiku45-action_count-n100-shuf1",
+      "orders_changed": 84,
+      "moved_choice_items": 62,
+      "followed_text": 28,
+      "same_letter": 28,
+      "third_option": 6,
+      "same_letter_vs_third_p": 9.756279177963734e-05,
+      "paired": {
+        "a": "haiku45-action_count-n100",
+        "b": "haiku45-action_count-n100-shuf1",
+        "n": 100,
+        "diff": 0.04999999999999999,
+        "boot_lo": -0.06,
+        "boot_hi": 0.16,
+        "b_discordant": 18,
+        "c_discordant": 13,
+        "p_mcnemar": 0.47312965989112854,
+        "verdict": "tied",
+        "flip_split": [
+          17,
+          14
+        ],
+        "flip_p": 0.720100131817162,
+        "flip_changes_verdict": false,
+        "same_letter": 61,
+        "discordant_total": 31
+      }
+    },
+    {
+      "unshuffled": "sonnet55-action_count-n100",
+      "shuffled": "sonnet55-action_count-n100-shuf1",
+      "orders_changed": 84,
+      "moved_choice_items": 64,
+      "followed_text": 56,
+      "same_letter": 4,
+      "third_option": 4,
+      "same_letter_vs_third_p": 0.63671875,
+      "paired": {
+        "a": "sonnet55-action_count-n100",
+        "b": "sonnet55-action_count-n100-shuf1",
+        "n": 100,
+        "diff": 0.019999999999999962,
+        "boot_lo": -0.03,
+        "boot_hi": 0.08,
+        "b_discordant": 5,
+        "c_discordant": 3,
+        "p_mcnemar": 0.7265625,
+        "verdict": "tied",
+        "flip_split": [
+          4,
+          4
+        ],
+        "flip_p": 1.0,
+        "flip_changes_verdict": false,
+        "same_letter": 39,
+        "discordant_total": 8
+      }
+    },
+    {
+      "unshuffled": "opus55-action_count-n100",
+      "shuffled": "opus55-action_count-n100-shuf1",
+      "orders_changed": 84,
+      "moved_choice_items": 64,
+      "followed_text": 40,
+      "same_letter": 13,
+      "third_option": 11,
+      "same_letter_vs_third_p": 0.4194098711013794,
+      "paired": {
+        "a": "opus55-action_count-n100",
+        "b": "opus55-action_count-n100-shuf1",
+        "n": 100,
+        "diff": 0.010000000000000009,
+        "boot_lo": -0.09,
+        "boot_hi": 0.11,
+        "b_discordant": 14,
+        "c_discordant": 13,
+        "p_mcnemar": 1.0,
+        "verdict": "tied",
+        "flip_split": [
+          13,
+          14
+        ],
+        "flip_p": 1.0,
+        "flip_changes_verdict": false,
+        "same_letter": 43,
+        "discordant_total": 27
+      }
+    }
+  ],
+  "repeat": [
+    {
+      "a": "haiku45-action_count-n100",
+      "b": "haiku45-action_count-n100-rep2",
+      "n": 100,
+      "diff": 0.0,
+      "boot_lo": 0.0,
+      "boot_hi": 0.0,
+      "b_discordant": 0,
+      "c_discordant": 0,
+      "p_mcnemar": 1.0,
+      "verdict": "tied",
+      "flip_split": [
+        -1,
+        1
+      ],
+      "flip_p": 1.0,
+      "flip_changes_verdict": false,
+      "same_letter": 100,
+      "discordant_total": 0
+    },
+    {
+      "a": "sonnet55-action_count-n100",
+      "b": "sonnet55-action_count-n100-rep2",
+      "n": 100,
+      "diff": 0.0,
+      "boot_lo": -0.05,
+      "boot_hi": 0.05,
+      "b_discordant": 3,
+      "c_discordant": 3,
+      "p_mcnemar": 1.0,
+      "verdict": "tied",
+      "flip_split": [
+        2,
+        4
+      ],
+      "flip_p": 0.6875,
+      "flip_changes_verdict": false,
+      "same_letter": 93,
+      "discordant_total": 6
+    }
+  ],
+  "other": [
+    {
+      "a": "haiku45-action_count-n100",
+      "b": "haiku45-action_count-n100-tdefault",
+      "n": 100,
+      "diff": 0.06,
+      "boot_lo": -0.01,
+      "boot_hi": 0.13,
+      "b_discordant": 9,
+      "c_discordant": 3,
+      "p_mcnemar": 0.14599609375,
+      "verdict": "tied",
+      "flip_split": [
+        8,
+        4
+      ],
+      "flip_p": 0.3876953125,
+      "flip_changes_verdict": false,
+      "same_letter": 83,
+      "discordant_total": 12,
+      "label": "Haiku t=0 vs default temp"
+    },
+    {
+      "a": "haiku45-action_count-n100",
+      "b": "haiku45-action_count-n100-numbered",
+      "n": 100,
+      "diff": 0.09000000000000002,
+      "boot_lo": 0.02,
+      "boot_hi": 0.16,
+      "b_discordant": 11,
+      "c_discordant": 2,
+      "p_mcnemar": 0.0224609375,
+      "verdict": "A better",
+      "flip_split": [
+        10,
+        3
+      ],
+      "flip_p": 0.09228515625,
+      "flip_changes_verdict": true,
+      "same_letter": 79,
+      "discordant_total": 13,
+      "label": "Haiku letters vs numbers"
+    },
+    {
+      "a": "sonnet55-action_count-n100",
+      "b": "haiku45-action_count-n100",
+      "n": 100,
+      "diff": 0.03999999999999998,
+      "boot_lo": -0.09,
+      "boot_hi": 0.17,
+      "b_discordant": 23,
+      "c_discordant": 19,
+      "p_mcnemar": 0.6439689563703723,
+      "verdict": "tied",
+      "flip_split": [
+        22,
+        20
+      ],
+      "flip_p": 0.8776143287523154,
+      "flip_changes_verdict": false,
+      "same_letter": 51,
+      "discordant_total": 42,
+      "label": "Sonnet vs Haiku"
+    },
+    {
+      "a": "opus55-action_count-n100",
+      "b": "sonnet55-action_count-n100",
+      "n": 100,
+      "diff": 0.040000000000000036,
+      "boot_lo": -0.06,
+      "boot_hi": 0.14,
+      "b_discordant": 15,
+      "c_discordant": 11,
+      "p_mcnemar": 0.557197093963623,
+      "verdict": "tied",
+      "flip_split": [
+        14,
+        12
+      ],
+      "flip_p": 0.8450189828872681,
+      "flip_changes_verdict": false,
+      "same_letter": 67,
+      "discordant_total": 26,
+      "label": "Opus vs Sonnet"
+    },
+    {
+      "a": "opus55-action_count-n100",
+      "b": "haiku45-action_count-n100",
+      "n": 100,
+      "diff": 0.08000000000000002,
+      "boot_lo": -0.04,
+      "boot_hi": 0.21,
+      "b_discordant": 25,
+      "c_discordant": 17,
+      "p_mcnemar": 0.27995623852893914,
+      "verdict": "tied",
+      "flip_split": [
+        24,
+        18
+      ],
+      "flip_p": 0.44079906734259566,
+      "flip_changes_verdict": false,
+      "same_letter": 52,
+      "discordant_total": 42,
+      "label": "Opus vs Haiku"
+    }
+  ],
+  "missing": [],
+  "bonferroni": {
+    "tests": 10,
+    "alpha": 0.005,
+    "survivors": []
+  },
+  "total_cost_usd": 6.264,
+  "phase2": {
+    "hypotheses": {
+      "H1": {
+        "verdict": "holds",
+        "basis": "framed vs blind McNemar per model at alpha 0.0167; falsified if any model's framed run beats its blind run"
+      },
+      "H2": {
+        "verdict": "holds",
+        "middle_share": 0.58,
+        "separated": {
+          "items": 75,
+          "middle": 42,
+          "value": 23,
+          "p_binomial": 0.024811974571552153
+        },
+        "basis": "Haiku blind, values shuffled off the middle: middle share >= 50% holds; picks following the value falsify"
+      },
+      "H3": {
+        "verdict": "falsified",
+        "parts": [
+          {
+            "model": "haiku45",
+            "consistency": 0.14,
+            "max": 0.5,
+            "perm_avg": 0.3766666666666667,
+            "inside_majority_interval": true
+          },
+          {
+            "model": "sonnet55",
+            "consistency": 0.59,
+            "max": 0.75,
+            "perm_avg": 0.45,
+            "inside_majority_interval": true
+          },
+          {
+            "model": "opus55",
+            "consistency": 0.52,
+            "max": 0.75,
+            "perm_avg": 0.5183333333333333,
+            "inside_majority_interval": false
+          }
+        ],
+        "majority_interval": [
+          0.3186731302113651,
+          0.5079856994658921
+        ],
+        "basis": "consistency under 50% (Haiku) and 75% (Sonnet, Opus); every perm-averaged accuracy inside the majority-baseline Wilson interval",
+        "paired_vs_majority": {
+          "haiku45": {
+            "diff": -0.033333333333333354,
+            "lo": -0.12833333333333335,
+            "hi": 0.05833333333333332,
+            "n_items": 100,
+            "distinguishable": false
+          },
+          "sonnet55": {
+            "diff": 0.04,
+            "lo": -0.065,
+            "hi": 0.14333333333333334,
+            "n_items": 100,
+            "distinguishable": false
+          },
+          "opus55": {
+            "diff": 0.10833333333333334,
+            "lo": 0.016666666666666653,
+            "hi": 0.2,
+            "n_items": 100,
+            "distinguishable": true
+          }
+        }
+      },
+      "H4": {
+        "verdict": "holds",
+        "basis": "Sonnet vs Haiku tied on 200 items and Haiku middle share above 50%"
+      },
+      "H5": {
+        "verdict": "holds",
+        "diff": 0.02999999999999997,
+        "basis": "4 vs 16 frames moves Haiku by under 5 points"
+      },
+      "H6": {
+        "verdict": "incomplete",
+        "basis": "parity run not done"
+      }
+    },
+    "majority": {
+      "items_1_100": {
+        "value": {
+          "value": "3",
+          "k": 41,
+          "n": 100,
+          "acc": 0.41,
+          "lo": 0.3186731302113651,
+          "hi": 0.5079856994658921
+        },
+        "slot": {
+          "value": "A",
+          "k": 35,
+          "n": 100,
+          "acc": 0.35,
+          "lo": 0.26364248243097527,
+          "hi": 0.4474555670311204
+        }
+      },
+      "items_1_200": {
+        "value": {
+          "value": "3",
+          "k": 90,
+          "n": 200,
+          "acc": 0.45,
+          "lo": 0.3826406840224835,
+          "hi": 0.5192438486152432
+        },
+        "slot": {
+          "value": "A",
+          "k": 77,
+          "n": 200,
+          "acc": 0.385,
+          "lo": 0.32033309726923215,
+          "hi": 0.45400132779753916
+        }
+      }
+    },
+    "blind": {
+      "haiku45": {
+        "blind": {
+          "run_id": "haiku45-action_count-n100-blind",
+          "label": "Haiku 4.5 blind",
+          "n": 100,
+          "correct": 38,
+          "acc": 0.38,
+          "lo": 0.29097599252478734,
+          "hi": 0.47790244704488927,
+          "picks_ABC": [
+            31,
+            62,
+            7
+          ],
+          "truth_ABC": [
+            35,
+            35,
+            30
+          ],
+          "gof_p": 3.538638424895867e-09,
+          "acc_by_pos": {
+            "A": "12/35",
+            "B": "24/35",
+            "C": "2/30"
+          },
+          "acc_by_pos_chi2_p": 1.6823227805954415e-06,
+          "cost_usd": 0.0283,
+          "paid_calls": 100,
+          "parse_failures": 0
+        },
+        "prior": {
+          "n": 100,
+          "parse_failures": 0,
+          "slot_share": {
+            "A": {
+              "k": 31,
+              "n": 100,
+              "acc": 0.31,
+              "lo": 0.22779697212376035,
+              "hi": 0.40626055719489407
+            },
+            "B": {
+              "k": 62,
+              "n": 100,
+              "acc": 0.62,
+              "lo": 0.5220975529551107,
+              "hi": 0.7090240074752127
+            },
+            "C": {
+              "k": 7,
+              "n": 100,
+              "acc": 0.07,
+              "lo": 0.03431926106727266,
+              "hi": 0.13749514739073504
+            }
+          },
+          "value": "3",
+          "value_share": {
+            "k": 25,
+            "n": 100,
+            "acc": 0.25,
+            "lo": 0.17545211362287677,
+            "hi": 0.3430446354806161
+          },
+          "middle_share": {
+            "k": 62,
+            "n": 100,
+            "acc": 0.62,
+            "lo": 0.5220975529551107,
+            "hi": 0.7090240074752127
+          },
+          "separated": {
+            "items": 48,
+            "middle": 29,
+            "value": 11,
+            "p_binomial": 0.006426576095691416
+          }
+        },
+        "framed_vs_blind": {
+          "a": "haiku45-action_count-n100",
+          "b": "haiku45-action_count-n100-blind",
+          "n": 100,
+          "diff": 0.06,
+          "boot_lo": -0.06,
+          "boot_hi": 0.18,
+          "b_discordant": 23,
+          "c_discordant": 17,
+          "p_mcnemar": 0.42959050784338615,
+          "verdict": "tied",
+          "flip_split": [
+            22,
+            18
+          ],
+          "flip_p": 0.6358280026288412,
+          "flip_changes_verdict": false,
+          "same_letter": 42,
+          "discordant_total": 40,
+          "h1_falsified": false
+        },
+        "value_shuffled": {
+          "n": 100,
+          "parse_failures": 0,
+          "slot_share": {
+            "A": {
+              "k": 32,
+              "n": 100,
+              "acc": 0.32,
+              "lo": 0.2366914732499909,
+              "hi": 0.4166261861045239
+            },
+            "B": {
+              "k": 58,
+              "n": 100,
+              "acc": 0.58,
+              "lo": 0.4820648670304296,
+              "hi": 0.6720161732564526
+            },
+            "C": {
+              "k": 10,
+              "n": 100,
+              "acc": 0.1,
+              "lo": 0.05522913706067509,
+              "hi": 0.17436566150491348
+            }
+          },
+          "value": "3",
+          "value_share": {
+            "k": 23,
+            "n": 100,
+            "acc": 0.23,
+            "lo": 0.15843265880303448,
+            "hi": 0.3215438302287378
+          },
+          "middle_share": {
+            "k": 58,
+            "n": 100,
+            "acc": 0.58,
+            "lo": 0.4820648670304296,
+            "hi": 0.6720161732564526
+          },
+          "separated": {
+            "items": 75,
+            "middle": 42,
+            "value": 23,
+            "p_binomial": 0.024811974571552153
+          }
+        }
+      },
+      "sonnet55": {
+        "blind": {
+          "run_id": "sonnet55-action_count-n100-blind",
+          "label": "Sonnet 5.5 blind",
+          "n": 100,
+          "correct": 43,
+          "acc": 0.43,
+          "lo": 0.337332985241101,
+          "hi": 0.5278461045078768,
+          "picks_ABC": [
+            26,
+            41,
+            33
+          ],
+          "truth_ABC": [
+            35,
+            35,
+            30
+          ],
+          "gof_p": 0.1617944508291011,
+          "acc_by_pos": {
+            "A": "7/35",
+            "B": "22/35",
+            "C": "14/30"
+          },
+          "acc_by_pos_chi2_p": 0.001262536713513127,
+          "cost_usd": 0.0712,
+          "paid_calls": 100,
+          "parse_failures": 0
+        },
+        "prior": {
+          "n": 100,
+          "parse_failures": 0,
+          "slot_share": {
+            "A": {
+              "k": 26,
+              "n": 100,
+              "acc": 0.26,
+              "lo": 0.18404698464748137,
+              "hi": 0.35370989449187185
+            },
+            "B": {
+              "k": 41,
+              "n": 100,
+              "acc": 0.41,
+              "lo": 0.3186731302113651,
+              "hi": 0.5079856994658921
+            },
+            "C": {
+              "k": 33,
+              "n": 100,
+              "acc": 0.33,
+              "lo": 0.2456312273412803,
+              "hi": 0.42694656204909476
+            }
+          },
+          "value": "3",
+          "value_share": {
+            "k": 64,
+            "n": 100,
+            "acc": 0.64,
+            "lo": 0.5423540245160874,
+            "hi": 0.7272877959859567
+          },
+          "middle_share": {
+            "k": 41,
+            "n": 100,
+            "acc": 0.41,
+            "lo": 0.3186731302113651,
+            "hi": 0.5079856994658921
+          },
+          "separated": {
+            "items": 48,
+            "middle": 4,
+            "value": 38,
+            "p_binomial": 5.65314621780999e-08
+          }
+        },
+        "framed_vs_blind": {
+          "a": "sonnet55-action_count-n100",
+          "b": "sonnet55-action_count-n100-blind",
+          "n": 100,
+          "diff": 0.04999999999999999,
+          "boot_lo": -0.09,
+          "boot_hi": 0.19,
+          "b_discordant": 26,
+          "c_discordant": 21,
+          "p_mcnemar": 0.5600646295802106,
+          "verdict": "tied",
+          "flip_split": [
+            25,
+            22
+          ],
+          "flip_p": 0.7708669945730263,
+          "flip_changes_verdict": false,
+          "same_letter": 45,
+          "discordant_total": 47,
+          "h1_falsified": false
+        },
+        "value_shuffled": {
+          "n": 100,
+          "parse_failures": 0,
+          "slot_share": {
+            "A": {
+              "k": 40,
+              "n": 100,
+              "acc": 0.4,
+              "lo": 0.30940128643245896,
+              "hi": 0.49799741320893826
+            },
+            "B": {
+              "k": 18,
+              "n": 100,
+              "acc": 0.18,
+              "lo": 0.11700225498946347,
+              "hi": 0.2666735838630073
+            },
+            "C": {
+              "k": 42,
+              "n": 100,
+              "acc": 0.42,
+              "lo": 0.3279838267435473,
+              "hi": 0.5179351329695703
+            }
+          },
+          "value": "3",
+          "value_share": {
+            "k": 59,
+            "n": 100,
+            "acc": 0.59,
+            "lo": 0.4920143005341078,
+            "hi": 0.6813268697886348
+          },
+          "middle_share": {
+            "k": 18,
+            "n": 100,
+            "acc": 0.18,
+            "lo": 0.11700225498946347,
+            "hi": 0.2666735838630073
+          },
+          "separated": {
+            "items": 75,
+            "middle": 11,
+            "value": 59,
+            "p_binomial": 4.466174729063311e-09
+          }
+        }
+      },
+      "opus55": {
+        "blind": {
+          "run_id": "opus55-action_count-n100-blind",
+          "label": "Opus 5.5 blind",
+          "n": 100,
+          "correct": 39,
+          "acc": 0.39,
+          "lo": 0.3001687400639442,
+          "hi": 0.4879698295415927,
+          "picks_ABC": [
+            33,
+            35,
+            32
+          ],
+          "truth_ABC": [
+            35,
+            35,
+            30
+          ],
+          "gof_p": 0.8835481197356344,
+          "acc_by_pos": {
+            "A": "11/35",
+            "B": "16/35",
+            "C": "12/30"
+          },
+          "acc_by_pos_chi2_p": 0.4678428215938163,
+          "cost_usd": 0.2004,
+          "paid_calls": 97,
+          "parse_failures": 0
+        },
+        "prior": {
+          "n": 100,
+          "parse_failures": 0,
+          "slot_share": {
+            "A": {
+              "k": 33,
+              "n": 100,
+              "acc": 0.33,
+              "lo": 0.2456312273412803,
+              "hi": 0.42694656204909476
+            },
+            "B": {
+              "k": 35,
+              "n": 100,
+              "acc": 0.35,
+              "lo": 0.26364248243097527,
+              "hi": 0.4474555670311204
+            },
+            "C": {
+              "k": 32,
+              "n": 100,
+              "acc": 0.32,
+              "lo": 0.2366914732499909,
+              "hi": 0.4166261861045239
+            }
+          },
+          "value": "3",
+          "value_share": {
+            "k": 65,
+            "n": 100,
+            "acc": 0.65,
+            "lo": 0.5525444329688796,
+            "hi": 0.7363575175690247
+          },
+          "middle_share": {
+            "k": 35,
+            "n": 100,
+            "acc": 0.35,
+            "lo": 0.26364248243097527,
+            "hi": 0.4474555670311204
+          },
+          "separated": {
+            "items": 48,
+            "middle": 4,
+            "value": 41,
+            "p_binomial": 9.334883088740753e-09
+          }
+        },
+        "framed_vs_blind": {
+          "a": "opus55-action_count-n100",
+          "b": "opus55-action_count-n100-blind",
+          "n": 100,
+          "diff": 0.13,
+          "boot_lo": 0.01,
+          "boot_hi": 0.24,
+          "b_discordant": 25,
+          "c_discordant": 12,
+          "p_mcnemar": 0.04703102743951604,
+          "verdict": "A better",
+          "flip_split": [
+            24,
+            13
+          ],
+          "flip_p": 0.09887174959294498,
+          "flip_changes_verdict": true,
+          "same_letter": 56,
+          "discordant_total": 37,
+          "h1_falsified": false
+        },
+        "value_shuffled": {
+          "n": 100,
+          "parse_failures": 0,
+          "slot_share": {
+            "A": {
+              "k": 35,
+              "n": 100,
+              "acc": 0.35,
+              "lo": 0.26364248243097527,
+              "hi": 0.4474555670311204
+            },
+            "B": {
+              "k": 14,
+              "n": 100,
+              "acc": 0.14,
+              "lo": 0.08526343659939131,
+              "hi": 0.2213718821096384
+            },
+            "C": {
+              "k": 51,
+              "n": 100,
+              "acc": 0.51,
+              "lo": 0.4134801193402717,
+              "hi": 0.6057800106955887
+            }
+          },
+          "value": "3",
+          "value_share": {
+            "k": 62,
+            "n": 100,
+            "acc": 0.62,
+            "lo": 0.5220975529551107,
+            "hi": 0.7090240074752127
+          },
+          "middle_share": {
+            "k": 14,
+            "n": 100,
+            "acc": 0.14,
+            "lo": 0.08526343659939131,
+            "hi": 0.2213718821096384
+          },
+          "separated": {
+            "items": 75,
+            "middle": 8,
+            "value": 62,
+            "p_binomial": 1.8267652540930775e-11
+          }
+        }
+      }
+    },
+    "permutations": {
+      "haiku45": {
+        "orderings": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "complete": true,
+        "n_items": 100,
+        "vs_majority_paired": {
+          "diff": -0.033333333333333354,
+          "lo": -0.12833333333333335,
+          "hi": 0.05833333333333332,
+          "n_items": 100,
+          "distinguishable": false
+        },
+        "perm_avg": {
+          "acc": 0.3766666666666667,
+          "lo": 0.325,
+          "hi": 0.42833333333333345,
+          "per_ordering": [
+            0.44,
+            0.37,
+            0.34,
+            0.33,
+            0.44,
+            0.34
+          ],
+          "n_items": 100,
+          "n_orderings": 6
+        },
+        "consistency": {
+          "k": 14,
+          "n": 100,
+          "acc": 0.14,
+          "lo": 0.08526343659939131,
+          "hi": 0.2213718821096384
+        },
+        "circular_accuracy": {
+          "k": 6,
+          "n": 100,
+          "acc": 0.06,
+          "lo": 0.027786123963188178,
+          "hi": 0.12476815445895921
+        },
+        "cramers_v": {
+          "v": 0.36868007811651554,
+          "p": 3.8116545035777254e-36,
+          "slot_counts": [
+            145,
+            346,
+            109
+          ],
+          "n_picks": 600
+        },
+        "cost": {
+          "n": 600,
+          "correct": 226,
+          "cost_uncached": 2.3751,
+          "cost_billed": 2.3002,
+          "cost_per_100_items": 0.3959,
+          "cost_per_correct": 0.01051
+        }
+      },
+      "sonnet55": {
+        "orderings": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "complete": true,
+        "n_items": 100,
+        "vs_majority_paired": {
+          "diff": 0.04,
+          "lo": -0.065,
+          "hi": 0.14333333333333334,
+          "n_items": 100,
+          "distinguishable": false
+        },
+        "perm_avg": {
+          "acc": 0.45,
+          "lo": 0.36666666666666664,
+          "hi": 0.5333333333333333,
+          "per_ordering": [
+            0.48,
+            0.47,
+            0.44,
+            0.42,
+            0.43,
+            0.46
+          ],
+          "n_items": 100,
+          "n_orderings": 6
+        },
+        "consistency": {
+          "k": 59,
+          "n": 100,
+          "acc": 0.59,
+          "lo": 0.4920143005341078,
+          "hi": 0.6813268697886348
+        },
+        "circular_accuracy": {
+          "k": 31,
+          "n": 100,
+          "acc": 0.31,
+          "lo": 0.22779697212376035,
+          "hi": 0.40626055719489407
+        },
+        "cramers_v": {
+          "v": 0.04330127018922193,
+          "p": 0.3246524673583498,
+          "slot_counts": [
+            215,
+            185,
+            200
+          ],
+          "n_picks": 600
+        },
+        "cost": {
+          "n": 600,
+          "correct": 270,
+          "cost_uncached": 4.8564,
+          "cost_billed": 4.1601,
+          "cost_per_100_items": 0.8094,
+          "cost_per_correct": 0.01799
+        }
+      },
+      "opus55": {
+        "orderings": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "complete": true,
+        "n_items": 100,
+        "vs_majority_paired": {
+          "diff": 0.10833333333333334,
+          "lo": 0.016666666666666653,
+          "hi": 0.2,
+          "n_items": 100,
+          "distinguishable": true
+        },
+        "perm_avg": {
+          "acc": 0.5183333333333333,
+          "lo": 0.435,
+          "hi": 0.6016666666666666,
+          "per_ordering": [
+            0.52,
+            0.5,
+            0.53,
+            0.49,
+            0.57,
+            0.5
+          ],
+          "n_items": 100,
+          "n_orderings": 6
+        },
+        "consistency": {
+          "k": 52,
+          "n": 100,
+          "acc": 0.52,
+          "lo": 0.42316577765223967,
+          "hi": 0.615354482419481
+        },
+        "circular_accuracy": {
+          "k": 30,
+          "n": 100,
+          "acc": 0.3,
+          "lo": 0.21894885294932756,
+          "hi": 0.39584854633346667
+        },
+        "cramers_v": {
+          "v": 0.06244997998398398,
+          "p": 0.09632763823049303,
+          "slot_counts": [
+            206,
+            176,
+            218
+          ],
+          "n_picks": 600
+        },
+        "cost": {
+          "n": 600,
+          "correct": 311,
+          "cost_uncached": 10.5587,
+          "cost_billed": 7.9378,
+          "cost_per_100_items": 1.7598,
+          "cost_per_correct": 0.03395
+        }
+      }
+    },
+    "items_200": {
+      "sonnet_vs_haiku": {
+        "model_a": "claude-sonnet-5-5",
+        "model_b": "claude-haiku-4-5-20251001",
+        "n_common": 200,
+        "acc_a": {
+          "n": 200,
+          "k": 101,
+          "acc": 0.505,
+          "lo": 0.43627000033527485,
+          "hi": 0.5735415464009526,
+          "alpha": 0.05
+        },
+        "acc_b": {
+          "n": 200,
+          "k": 84,
+          "acc": 0.42,
+          "lo": 0.35373599161616726,
+          "hi": 0.4892792606041954,
+          "alpha": 0.05
+        },
+        "paired": {
+          "n": 200,
+          "b": 52,
+          "c": 35,
+          "diff": 0.08500000000000002,
+          "wald_lo": -0.0056443612979436425,
+          "wald_hi": 0.1756443612979437,
+          "boot_lo": -0.005,
+          "boot_hi": 0.175,
+          "p_mcnemar": 0.08568897435916664,
+          "verdict": "tied"
+        },
+        "summary": "claude-sonnet-5-5 50.5% [43.6%, 57.4%] vs claude-haiku-4-5-20251001 42.0% [35.4%, 48.9%]; diff +8.5% (bootstrap [-0.5%, +17.5%]), discordant b=52 c=35, McNemar p=0.086: tied"
+      },
+      "haiku_middle_share": {
+        "k": 111,
+        "n": 200,
+        "acc": 0.555,
+        "lo": 0.4857330241280342,
+        "hi": 0.6221939899704665
+      }
+    },
+    "frames": {
+      "haiku45-action_count-n100-f4 vs haiku45-action_count-n100-f16": {
+        "a": "haiku45-action_count-n100-f4",
+        "b": "haiku45-action_count-n100-f16",
+        "n": 100,
+        "diff": 0.02999999999999997,
+        "boot_lo": -0.07,
+        "boot_hi": 0.13,
+        "b_discordant": 15,
+        "c_discordant": 12,
+        "p_mcnemar": 0.7011080384254456,
+        "verdict": "tied",
+        "flip_split": [
+          14,
+          13
+        ],
+        "flip_p": 1.0,
+        "flip_changes_verdict": false,
+        "same_letter": 66,
+        "discordant_total": 27
+      },
+      "haiku45-action_count-n100-f4 vs haiku45-action_count-n100": {
+        "a": "haiku45-action_count-n100-f4",
+        "b": "haiku45-action_count-n100",
+        "n": 100,
+        "diff": -0.020000000000000018,
+        "boot_lo": -0.13,
+        "boot_hi": 0.09,
+        "b_discordant": 14,
+        "c_discordant": 16,
+        "p_mcnemar": 0.8555355519056321,
+        "verdict": "tied",
+        "flip_split": [
+          15,
+          15
+        ],
+        "flip_p": 1.0,
+        "flip_changes_verdict": false,
+        "same_letter": 64,
+        "discordant_total": 30
+      },
+      "haiku45-action_count-n100 vs haiku45-action_count-n100-f16": {
+        "a": "haiku45-action_count-n100",
+        "b": "haiku45-action_count-n100-f16",
+        "n": 100,
+        "diff": 0.04999999999999999,
+        "boot_lo": -0.01,
+        "boot_hi": 0.11,
+        "b_discordant": 7,
+        "c_discordant": 2,
+        "p_mcnemar": 0.1796875,
+        "verdict": "tied",
+        "flip_split": [
+          6,
+          3
+        ],
+        "flip_p": 0.5078125,
+        "flip_changes_verdict": false,
+        "same_letter": 85,
+        "discordant_total": 9
+      }
+    },
+    "opus_repeat": {
+      "a": "opus55-action_count-n100",
+      "b": "opus55-action_count-n100-rep2",
+      "n": 100,
+      "diff": 0.020000000000000018,
+      "boot_lo": -0.06,
+      "boot_hi": 0.1,
+      "b_discordant": 9,
+      "c_discordant": 7,
+      "p_mcnemar": 0.803619384765625,
+      "verdict": "tied",
+      "flip_split": [
+        8,
+        8
+      ],
+      "flip_p": 1.0,
+      "flip_changes_verdict": false,
+      "same_letter": 80,
+      "discordant_total": 16
+    },
+    "cost": {
+      "haiku45-action_count-n100-blind-vshuf1": {
+        "n": 100,
+        "correct": 29,
+        "cost_uncached": 0.0283,
+        "cost_billed": 0.0221,
+        "cost_per_100_items": 0.0283,
+        "cost_per_correct": 0.00098
+      },
+      "haiku45-action_count-n100-blind": {
+        "n": 100,
+        "correct": 38,
+        "cost_uncached": 0.0283,
+        "cost_billed": 0.0283,
+        "cost_per_100_items": 0.0283,
+        "cost_per_correct": 0.00075
+      },
+      "haiku45-action_count-n100-f16": {
+        "n": 100,
+        "correct": 39,
+        "cost_uncached": 0.7634,
+        "cost_billed": 0.7634,
+        "cost_per_100_items": 0.7634,
+        "cost_per_correct": 0.01957
+      },
+      "haiku45-action_count-n100-f4": {
+        "n": 100,
+        "correct": 42,
+        "cost_uncached": 0.2121,
+        "cost_billed": 0.2121,
+        "cost_per_100_items": 0.2121,
+        "cost_per_correct": 0.00505
+      },
+      "haiku45-action_count-n100-numbered": {
+        "n": 100,
+        "correct": 35,
+        "cost_uncached": 0.3959,
+        "cost_billed": 0.3959,
+        "cost_per_100_items": 0.3959,
+        "cost_per_correct": 0.01131
+      },
+      "haiku45-action_count-n100-perm1": {
+        "n": 100,
+        "correct": 37,
+        "cost_uncached": 0.3959,
+        "cost_billed": 0.3959,
+        "cost_per_100_items": 0.3959,
+        "cost_per_correct": 0.0107
+      },
+      "haiku45-action_count-n100-perm2": {
+        "n": 100,
+        "correct": 34,
+        "cost_uncached": 0.3959,
+        "cost_billed": 0.3959,
+        "cost_per_100_items": 0.3959,
+        "cost_per_correct": 0.01164
+      },
+      "haiku45-action_count-n100-perm3": {
+        "n": 100,
+        "correct": 33,
+        "cost_uncached": 0.3959,
+        "cost_billed": 0.3959,
+        "cost_per_100_items": 0.3959,
+        "cost_per_correct": 0.012
+      },
+      "haiku45-action_count-n100-perm4": {
+        "n": 100,
+        "correct": 44,
+        "cost_uncached": 0.3959,
+        "cost_billed": 0.3959,
+        "cost_per_100_items": 0.3959,
+        "cost_per_correct": 0.009
+      },
+      "haiku45-action_count-n100-perm5": {
+        "n": 100,
+        "correct": 34,
+        "cost_uncached": 0.3959,
+        "cost_billed": 0.3327,
+        "cost_per_100_items": 0.3959,
+        "cost_per_correct": 0.01164
+      },
+      "haiku45-action_count-n100-rep2": {
+        "n": 100,
+        "correct": 44,
+        "cost_uncached": 0.3959,
+        "cost_billed": 0.3959,
+        "cost_per_100_items": 0.3959,
+        "cost_per_correct": 0.009
+      },
+      "haiku45-action_count-n100-shuf1": {
+        "n": 100,
+        "correct": 39,
+        "cost_uncached": 0.3959,
+        "cost_billed": 0.3327,
+        "cost_per_100_items": 0.3959,
+        "cost_per_correct": 0.01015
+      },
+      "haiku45-action_count-n100-tdefault": {
+        "n": 100,
+        "correct": 38,
+        "cost_uncached": 0.3959,
+        "cost_billed": 0.3959,
+        "cost_per_100_items": 0.3959,
+        "cost_per_correct": 0.01042
+      },
+      "haiku45-action_count-n100": {
+        "n": 100,
+        "correct": 44,
+        "cost_uncached": 0.3959,
+        "cost_billed": 0.384,
+        "cost_per_100_items": 0.3959,
+        "cost_per_correct": 0.009
+      },
+      "haiku45-action_count-s100-n100": {
+        "n": 100,
+        "correct": 40,
+        "cost_uncached": 0.3952,
+        "cost_billed": 0.3952,
+        "cost_per_100_items": 0.3952,
+        "cost_per_correct": 0.00988
+      },
+      "opus55-action_count-n100-blind-vshuf1": {
+        "n": 100,
+        "correct": 46,
+        "cost_uncached": 0.2027,
+        "cost_billed": 0.1587,
+        "cost_per_100_items": 0.2027,
+        "cost_per_correct": 0.00441
+      },
+      "opus55-action_count-n100-blind": {
+        "n": 100,
+        "correct": 39,
+        "cost_uncached": 0.2047,
+        "cost_billed": 0.2004,
+        "cost_per_100_items": 0.2047,
+        "cost_per_correct": 0.00525
+      },
+      "opus55-action_count-n100-perm1": {
+        "n": 100,
+        "correct": 50,
+        "cost_uncached": 1.7705,
+        "cost_billed": 1.5129,
+        "cost_per_100_items": 1.7705,
+        "cost_per_correct": 0.03541
+      },
+      "opus55-action_count-n100-perm2": {
+        "n": 100,
+        "correct": 53,
+        "cost_uncached": 1.7529,
+        "cost_billed": 1.3871,
+        "cost_per_100_items": 1.7529,
+        "cost_per_correct": 0.03307
+      },
+      "opus55-action_count-n100-perm3": {
+        "n": 100,
+        "correct": 49,
+        "cost_uncached": 1.7532,
+        "cost_billed": 1.3565,
+        "cost_per_100_items": 1.7532,
+        "cost_per_correct": 0.03578
+      },
+      "opus55-action_count-n100-perm4": {
+        "n": 100,
+        "correct": 57,
+        "cost_uncached": 1.7563,
+        "cost_billed": 1.5623,
+        "cost_per_100_items": 1.7563,
+        "cost_per_correct": 0.03081
+      },
+      "opus55-action_count-n100-perm5": {
+        "n": 100,
+        "correct": 50,
+        "cost_uncached": 1.7621,
+        "cost_billed": 1.5092,
+        "cost_per_100_items": 1.7621,
+        "cost_per_correct": 0.03524
+      },
+      "opus55-action_count-n100-rep2": {
+        "n": 100,
+        "correct": 50,
+        "cost_uncached": 1.7759,
+        "cost_billed": 1.7759,
+        "cost_per_100_items": 1.7759,
+        "cost_per_correct": 0.03552
+      },
+      "opus55-action_count-n100-shuf1": {
+        "n": 100,
+        "correct": 51,
+        "cost_uncached": 1.747,
+        "cost_billed": 1.467,
+        "cost_per_100_items": 1.747,
+        "cost_per_correct": 0.03425
+      },
+      "opus55-action_count-n100": {
+        "n": 100,
+        "correct": 52,
+        "cost_uncached": 1.7637,
+        "cost_billed": 0.6098,
+        "cost_per_100_items": 1.7637,
+        "cost_per_correct": 0.03392
+      },
+      "sonnet55-action_count-n100-blind-vshuf1": {
+        "n": 100,
+        "correct": 37,
+        "cost_uncached": 0.0712,
+        "cost_billed": 0.0556,
+        "cost_per_100_items": 0.0712,
+        "cost_per_correct": 0.00192
+      },
+      "sonnet55-action_count-n100-blind": {
+        "n": 100,
+        "correct": 43,
+        "cost_uncached": 0.0712,
+        "cost_billed": 0.0712,
+        "cost_per_100_items": 0.0712,
+        "cost_per_correct": 0.00166
+      },
+      "sonnet55-action_count-n100-perm1": {
+        "n": 100,
+        "correct": 47,
+        "cost_uncached": 0.8094,
+        "cost_billed": 0.6883,
+        "cost_per_100_items": 0.8094,
+        "cost_per_correct": 0.01722
+      },
+      "sonnet55-action_count-n100-perm2": {
+        "n": 100,
+        "correct": 44,
+        "cost_uncached": 0.8094,
+        "cost_billed": 0.6399,
+        "cost_per_100_items": 0.8094,
+        "cost_per_correct": 0.0184
+      },
+      "sonnet55-action_count-n100-perm3": {
+        "n": 100,
+        "correct": 42,
+        "cost_uncached": 0.8094,
+        "cost_billed": 0.6237,
+        "cost_per_100_items": 0.8094,
+        "cost_per_correct": 0.01927
+      },
+      "sonnet55-action_count-n100-perm4": {
+        "n": 100,
+        "correct": 43,
+        "cost_uncached": 0.8094,
+        "cost_billed": 0.7207,
+        "cost_per_100_items": 0.8094,
+        "cost_per_correct": 0.01882
+      },
+      "sonnet55-action_count-n100-perm5": {
+        "n": 100,
+        "correct": 46,
+        "cost_uncached": 0.8094,
+        "cost_billed": 0.6942,
+        "cost_per_100_items": 0.8094,
+        "cost_per_correct": 0.0176
+      },
+      "sonnet55-action_count-n100-rep2": {
+        "n": 100,
+        "correct": 48,
+        "cost_uncached": 0.8094,
+        "cost_billed": 0.8094,
+        "cost_per_100_items": 0.8094,
+        "cost_per_correct": 0.01686
+      },
+      "sonnet55-action_count-n100-shuf1": {
+        "n": 100,
+        "correct": 46,
+        "cost_uncached": 0.8094,
+        "cost_billed": 0.6802,
+        "cost_per_100_items": 0.8094,
+        "cost_per_correct": 0.0176
+      },
+      "sonnet55-action_count-n100": {
+        "n": 100,
+        "correct": 48,
+        "cost_uncached": 0.8094,
+        "cost_billed": 0.7933,
+        "cost_per_100_items": 0.8094,
+        "cost_per_correct": 0.01686
+      },
+      "sonnet55-action_count-s100-n100": {
+        "n": 100,
+        "correct": 53,
+        "cost_uncached": 0.8083,
+        "cost_billed": 0.8083,
+        "cost_per_100_items": 0.8083,
+        "cost_per_correct": 0.01525
+      },
+      "stub-action_count-n10-20261003-212514": {
+        "n": 10,
+        "correct": 7,
+        "cost_uncached": 0.0,
+        "cost_billed": 0.0,
+        "cost_per_100_items": 0.0,
+        "cost_per_correct": 0.0
+      },
+      "stub-action_count-n10-20261003-212519": {
+        "n": 10,
+        "correct": 7,
+        "cost_uncached": 0.0,
+        "cost_billed": 0.0,
+        "cost_per_100_items": 0.0,
+        "cost_per_correct": 0.0
+      },
+      "stub-action_count-n5-20261003-224628": {
+        "n": 5,
+        "correct": 3,
+        "cost_uncached": 0.0,
+        "cost_billed": 0.0,
+        "cost_per_100_items": 0.0,
+        "cost_per_correct": 0.0
+      },
+      "stub-b-action_count-n10-20261003-212517": {
+        "n": 10,
+        "correct": 6,
+        "cost_uncached": 0.0,
+        "cost_billed": 0.0,
+        "cost_per_100_items": 0.0,
+        "cost_per_correct": 0.0
+      }
+    }
+  }
+}

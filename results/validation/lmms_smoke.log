@@ -1,0 +1,27 @@
+2026-10-05 01:33:15 | INFO     | lmms_eval.__main__:cli_evaluate:516 - Verbosity set to INFO
+2026-10-05 01:33:18 | INFO     | lmms_eval.__main__:cli_evaluate_single:647 - Evaluation tracker args: {'output_path': '~/lmms-parity/out-smoke'}
+2026-10-05 01:33:18 | WARNING  | lmms_eval.__main__:cli_evaluate_single:677 -  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2026-10-05 01:33:18 | INFO     | lmms_eval.__main__:cli_evaluate_single:731 - Selected Tasks: ['mvbench_action_count']
+2026-10-05 01:33:18 | INFO     | lmms_eval.evaluator:simple_evaluate:486 - Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2026-10-05 01:33:20 | INFO     | lmms_eval.evaluator:evaluate:1047 - Running on rank 0 (local rank 0)
+2026-10-05 01:33:20 | INFO     | lmms_eval.api.task:build_all_requests:473 - Building contexts for mvbench_action_count on rank 0...
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 10407.70it/s]
+2026-10-05 01:33:20 | INFO     | lmms_eval.evaluator:evaluate:1200 - Running generate_until requests
+Model Responding:   0%|          | 0/1 [00:00<?, ?it/s]Model Responding: 100%|██████████| 1/1 [00:03<00:00,  3.02s/it]Model Responding: 100%|██████████| 1/1 [00:03<00:00,  3.02s/it]
+Postprocessing:   0%|          | 0/1 [00:00<?, ?it/s]Postprocessing: 100%|██████████| 1/1 [00:00<00:00, 1515.28it/s]
+2026-10-05 01:33:23 | INFO     | lmms_eval.evaluator:evaluate:1399 - Postprocessed 1 docs for mvbench_action_count/none with 4 worker(s) in 0.00s
+2026-10-05 01:33:27 | INFO     | lmms_eval.__main__:cli_evaluate_single:782 - Token Usage - Input: 9,642 | Output: 16 | Reasoning: 0 | Total: 9,658 | API Calls: 1
+2026-10-05 01:33:27 | INFO     | lmms_eval.loggers.evaluation_tracker:save_results_aggregated:187 - Saving results aggregated
+2026-10-05 01:33:27 | INFO     | lmms_eval.loggers.evaluation_tracker:save_results_samples:300 - Saving samples to ~/lmms-parity/out-smoke/claude-haiku-4-5-20251001/20261005_133318_samples_mvbench_action_count.jsonl
+claude (model_version=claude-haiku-4-5-20251001,max_frames_num=8), gen_kwargs: (), limit: 1.0, offset: 0, num_fewshot: None, batch_size: 1
+
+LMMs-Eval: Probing Intelligence in the Real World
+> Good evaluation shapes what we build next.
+
+branch: unknown
+commit: unknown
+
+|       Tasks        |Filter|n-shot|     Metric     |   |Value|   |Stderr|
+|--------------------|------|-----:|----------------|---|----:|---|------|
+|mvbench_action_count|none  |     0|mvbench_accuracy|↑  |  100|±  |N/A   |
+
