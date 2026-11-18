@@ -178,7 +178,7 @@ Haiku at 4 frames scored 42% [32.8%, 51.8%], at 8 frames 44%, and at 16 frames 3
 
 A 1-item smoke test ran through lmms-eval 0.7.3, with two minimal fixes to its Claude wrapper, on the same video file. It showed that the task's 16-token reply cap cut Haiku off before it gave a letter. lmms-eval's scorer then read the article "a" in the cut-off sentence as option A, and scored the item correct. I stopped H6 there.
 - **Evidence:** `results/validation/h6_not_run.md`.
-- **Draft upstream issue, not filed:** `docs/upstream/lmms-eval-issue-draft.md`.
+- **Upstream issue:** filed on 2026-11-18 as [EvolvingLMMs-Lab/lmms-eval#1694](https://github.com/EvolvingLMMs-Lab/lmms-eval/issues/1694). The text is in `docs/upstream/lmms-eval-issue-draft.md`.
 
 ### Human count from the same frames (H7): falsified
 
